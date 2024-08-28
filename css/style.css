@@ -1,0 +1,237 @@
+/*********
+variables 
+**********/
+:root {
+    /*** typography ***/
+
+    /* font family */
+    --first-font: 'Merriweather', serif;
+    --second-font: 'Lora', serif;
+    --third-font: 'Ubuntu', sans-serif;
+
+    /* font size */
+    --A: 0.7rem; 
+    --B: 0.875rem;
+    --C: 1rem;
+    --D: 1.125rem;
+    --E: 1.5rem;
+    --h1: 2rem;
+
+    /* font weight */
+    --regular: 400;
+    --bold: 700;
+    --light: 300;
+
+    /* font color */
+    --fc1: #F5F5DC; 
+    --texte-color: #F4E8C1; 
+    --fc2: #D4AF37; 
+    --fc3: #9B6A3E; 
+    --fc4: #7070;
+
+    /*** color ***/
+    --c1: #2c2a29; 
+    --c2: #3B3A36; 
+}
+
+body {
+    font-family: var(--first-font);
+    box-sizing: border-box;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--c1);
+    font-size: var(--D);
+    font-weight: var(--light);
+    color: var(--fc3);
+}
+
+/* Global Rules */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 1.5em;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 8px; /* Soft edges for a more ancient feel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+header, footer {
+    background-color: var(--c2);
+    color: var(--fc1);
+    text-align: center;
+    padding: 1em;
+}
+.page {
+    padding-top: 8em;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: .5em auto;
+}
+
+
+/* header */
+
+
+
+
+
+
+
+/* humburger menu */
+
+.inp__tog{
+    display: none;
+    transition: top 50ms ease;
+  }
+  .nav__toggle{
+    cursor: pointer;
+    display: none;
+    
+  }
+  .navig_menu{
+    position: relative;
+    
+  }
+  .navig_menu,.navig_menu::after,.navig_menu::before{
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: var(--fc2);
+  }
+  .navig_menu::after,.navig_menu::before{
+    content: '';
+    position: absolute;
+    transition: rotate 500ms ease ;
+  }
+  .navig_menu::after{
+    bottom: 7px;
+  }
+  .navig_menu::before{
+    top: 7px;
+  }
+  
+  /* nav drop */
+  
+  .inp__tog:checked~ nav{
+    top:7em;
+  }
+  .inp__tog:checked~ label span::after{
+    display: none;
+  }
+  .inp__tog:checked~ label span::before{
+    top: 0;
+    rotate: 90deg;
+  }
+  label span{
+    transition: rotate 500ms ease ;
+  }
+  .inp__tog:checked~ label span{
+    rotate: 45deg;
+  }
+  
+  /* Navigation for mobile devices */
+  
+  @media  screen and (max-width:1000px)  {
+    .nav__menu{
+      position: fixed;
+      top: -200%;
+      background-color: var(--c2);
+      width: 90%;
+      text-align: center;
+      transition: top 0.7s ease;
+    }
+    .nav__toggle{
+      display: block;
+    }
+    
+    .nav__list{
+      flex-direction: column;
+      gap: 2em;
+      background-color:var(--fc1);
+      width: 100%;
+      padding: 2em 0;
+      border-radius: 5px;
+      box-shadow: 0px 150px 160px 150px var(--c2);
+    }
+  }
+
+
+/* Footer Styles */
+footer {
+    background-color: var(--c2);
+    color: var(--fc1);
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid var(--fc2);
+}
+
+footer p {
+    margin: 0;
+    font-size: var(--C);
+}
+
+/* Responsive Adjustments */
+@media screen and (min-width: 1151px) {
+    .header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .flex {
+        flex-direction: row;
+    }
+    main {
+        width: 70%;
+    }
+    aside {
+        width: 25%;
+    }
+    .recent__article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__list {
+        flex-direction: column;
+    }
+}
