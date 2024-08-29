@@ -62,3 +62,8 @@ This project was inspired by the teachings of Kevin Powell on his Scrimba channe
 
 ## License
 This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
+
+### Screenshot
+
+![](./1.png)
+![](./Responsive%20changes%20everythıng.png)
