@@ -1,0 +1,11 @@
+.widget__title{
+    margin-bottom: 1em;
+}
+.widget__list{
+    flex-direction: column;
+    gap: 1.5em;
+}
+.widget__list li {
+    list-style:georgian;
+    margin-left: 1em;
+}

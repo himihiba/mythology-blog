@@ -1,0 +1,11 @@
+
+@media screen and (min-width: 1151px) {
+    .artcImg{
+        height: 100vh;
+        order: 2;
+        WIDTH: 30%;
+        margin-left: 4em;
+    }
+}
+
+

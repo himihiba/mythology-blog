@@ -17,15 +17,19 @@
     <!-- header -->
     <header class="header">
         <div class="container flex">
-            <a href="index.html" class="logo">
-                <h1 class="logo__title">Journey Through Mythology</h1>
-                <p class="logo__paragraph">Exploring the legends and myths of ancient civilizations</p>
+            <a href="index.html" class="nav__logo">
+                <div>
+                    <img src="img/logo.png" alt="image">
+                </div>
+                <h2>Journey Mythology</h2>
+                
             </a>
             <input type="checkbox" name="" id="nav-toggle" class="inp__tog">
             <nav class="nav nav__menu">
                 <ul class="nav__list">
                     <li class="nav__link current__page"><a href="index.html" class="nav__links">
                         <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+
                         <span class="text">Home</span>
                     </a></li>
                     <li class="nav__link"><a href="about.html" class="nav__links">
@@ -44,9 +48,70 @@
         </div>
     </header>
 
-     <!-- footer -->
-     <footer class="footer">
-        <div class="container">
+    <!-- page -->
+    <div class="container flex main page">
+        <!-- main -->
+        <main role="main">
+            <article class="hero__article">
+                <h2 class="article__title">The Hero's Journey</h2>
+                <img src="img/heros-journey.jpg" alt="The Hero's Journey" class="hero__artcImg">
+                <p class="article__info">January 12, 2024 | 5 comments</p>
+                <p class="article__body"><strong>Discover the timeless tales of heroes</strong> as they embark on epic journeys. Explore the trials, tribulations, and triumphs that define these legendary figures.</p>
+                <a href="#" class="read__more">continue reading</a>
+            </article>
+            <hr>
+            <article class="recent__article">
+                <div class="main__recent">
+                    <h2 class="article__title">Gods and Goddesses</h2>
+                    <p class="article__body">Explore the pantheon of gods and goddesses who ruled the heavens and the earth, wielding power beyond imagination.</p>
+                    <a href="#" class="read__more">continue reading</a>
+                </div>
+                <div class="side__recent">
+                    <img src="img/gods.jpg" alt="Gods and Goddesses" class="artcImg">
+                    <p class="Rarticle__info">January 10, 2024 | 7 comments</p>
+                </div>
+            </article>
+            <article class="recent__article">
+                <div class="main__recent">
+                    <h2 class="article__title">Creatures of Myth</h2>
+                    <p class="article__body">From dragons to griffins, explore the mythical creatures that have captivated imaginations for centuries.</p>
+                    <a href="#" class="read__more">continue reading</a>
+                </div>
+                <div class="side__recent">
+                    <img src="img/creatures.jpg" alt="Mythical Creatures" class="artcImg">
+                    <p class="Rarticle__info">January 8, 2024 | 4 comments</p>
+                </div>
+            </article>
+        </main>
+
+        <!-- aside -->
+        <aside class="sideBar">
+            <div class="sidebar__widget">
+                <h2 class="widget__title">About the Myths</h2>
+                <img src="img/myth.jpg" alt="About Mythology" class="widget__img">
+                <p class="widget__body">Mythology has shaped cultures and beliefs throughout history, offering a glimpse into the minds of ancient peoples.</p>
+            </div>
+            <div class="sidebar__widget">
+                <h2 class="widget__title">Recent Tales</h2>
+                <div class="recent__links">
+                    <h3 class="widget__recent_title">Gods and Goddesses</h3>
+                    <img src="img/gods.jpg" alt="Gods and Goddesses" class="widget__img">
+                </div>
+                <div class="recent__links">
+                    <h3 class="widget__recent_title">Creatures of Myth</h3>
+                    <img src="img/creatures.jpg" alt="Mythical Creatures" class="widget__img">
+                </div>
+                <div class="recent__links">
+                    <h3 class="widget__recent_title">The Hero's Journey</h3>
+                    <img src="img/heros-journey.jpg" alt="The Hero's Journey" class="widget__img">
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container flex footer">
             <p><strong>Journey Through Mythology</strong></p>
             <p>&copy; 2024 All Rights Reserved</p>
         </div>
