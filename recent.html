@@ -16,18 +16,35 @@
 <body>
     <!-- header -->
     <header class="header">
-        <div class="container">
-            <div class="logo">
-                <h1 class="logo__title">Journey Through Mythology</h1>
-                <p class="logo__paragraph">Exploring the legends and myths of ancient civilizations</p>
-            </div>
-            <nav class="nav">
+        <div class="container flex">
+            <a href="index.html" class="nav__logo">
+                <div>
+                    <img src="img/logo.png" alt="image">
+                </div>
+                <h2>Journey Mythology</h2>
+                
+            </a>
+            <input type="checkbox" name="" id="nav-toggle" class="inp__tog">
+            <nav class="nav nav__menu">
                 <ul class="nav__list">
-                    <li class="nav__link"><a href="index.html">Home</a></li>
-                    <li class="nav__link"><a href="about.html">About Mythology</a></li>
-                    <li class="nav__link current__page"><a href="recent.html">Ancient Stories</a></li>
+                    <li class="nav__link current__page"><a href="index.html" class="nav__links">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+
+                        <span class="text">Home</span>
+                    </a></li>
+                    <li class="nav__link"><a href="about.html" class="nav__links">
+                        <span class="icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                        <span class="text">About the Myths</span>
+                    </a></li>
+                    <li class="nav__link"><a href="recent.html" class="nav__links">
+                        <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                        <span class="text">Ancient Stories</span>
+                    </a></li>
                 </ul>
             </nav>
+            <label class="nav__toggle" for="nav-toggle">
+                <span class="navig_menu"></span>
+            </label>
         </div>
     </header>
 
