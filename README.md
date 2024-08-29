@@ -33,3 +33,32 @@ To run this project locally:
 1. **Clone the repository**: 
    ```bash
    git clone https://github.com/your-username/mythology-blog.git
+2. **Navigate to the project directory**: 
+   ```bash
+   cd mythology-blog
+3. **Open the index.html file in your browser to view the site.**
+
+## Usage
+This website is primarily a personal project aimed at testing and improving responsive web design skills. Feel free to explore the pages and view the source code to understand how various CSS techniques have been implemented.
+
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, please follow these guidelines:
+1. **Fork the repository.**
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-branch
+3. **Make your changes and commit them**:
+    ```bash
+    git commit -m "Add some feature"
+4. **Push to the branch**:
+    ```bash
+    git push origin feature-branch
+5. **Submit a pull request.**
+
+## Credits
+
+This project was inspired by the teachings of Kevin Powell on his Scrimba channel. Special thanks to his free course, which has been instrumental in developing my responsive design skills.
+-[Kevin Powell's Scrimba Course](https://youtube.com/playlist?list=PLqYFXd9GTRVWU_DqZo4D1r59ng46WdvL4&si=kU5Dt4QEGSYuh_xD)
+
+## License
+This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
