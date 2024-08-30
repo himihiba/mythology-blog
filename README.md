@@ -16,7 +16,7 @@
 
 - Utilized `em` units for padding and margins, and `rem` units for font sizes to ensure scalability and responsiveness.
 - Employed CSS Grid and Flexbox to organize the layout and maintain responsiveness across different screen sizes.
-- Avoided the use of `px` and instead used `%`, `min`, and `max` values for `vh` and `vw` to create a flexible and adaptive design.
+- Avoided the use of `px` and instead used `%`, `min`, and `max` values and `vh` and `vw` for width and hight to create a flexible and adaptive design.
 - Implemented CSS-only mobile navigation, gaining comfort with properties like `order` and understanding the value of well-organized CSS classes.
 
 ## Technologies Used
@@ -60,8 +60,6 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 This project was inspired by the teachings of Kevin Powell on his Scrimba channel. Special thanks to his free course, which has been instrumental in developing my responsive design skills.
 -[Kevin Powell's Scrimba Course](https://youtube.com/playlist?list=PLqYFXd9GTRVWU_DqZo4D1r59ng46WdvL4&si=kU5Dt4QEGSYuh_xD)
 
-## License
-This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
 
 ### Screenshot
 
