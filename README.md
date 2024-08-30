@@ -4,6 +4,11 @@
 
 **Mythology Blog** is a responsive test site designed to explore and showcase my web development skills, specifically focusing on creating a fully responsive layout using only HTML and CSS. This site serves as a personal project to improve my understanding of responsive design principles. While the primary audience includes individuals interested in ancient myths and legends, it is also aimed at web developers who want to see examples of responsive design techniques without relying on JavaScript. since it is a test site the text in this website(titles/paragraphes..) was implemented using chatgbt no big deal didnt put much effort in it.
 
+
+## Demo 
+
+-[Mythology blog Demo](https://himihiba.github.io/mythology-blog/)
+
 ## Features
 
 - **Home Page**: The home page features a main section and a sidebar, with a fixed and responsive header. A key highlight is the mobile navigation menu implemented purely with CSS, using the `input` and `label` elements along with the `:checked` pseudo-class and `::after`/`::before` pseudo-elements.
