@@ -26,6 +26,10 @@
 - **Fonts**: Google Fonts
 - **IDE**: Visual Studio Code
 
+## future plans
+
+i plan to use this frontend site to search and learn about api's and local storage by making real blog and dynamique articals.
+
 ## Installation
 
 To run this project locally:
