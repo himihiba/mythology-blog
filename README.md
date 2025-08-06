@@ -2,7 +2,7 @@
 
 ## Description
 
-**Mythology Blog** is a responsive test site designed to explore and showcase my responsive layout skills.
+**Mythology Blog** is a responsive site designed to explore and showcase my responsive layout skills.
 
 
 ## Demo 
